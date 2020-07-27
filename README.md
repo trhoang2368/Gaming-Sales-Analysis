@@ -11,7 +11,7 @@
 ### 2) Regional marketing analysis - Europe, North America, and Japan
 
 ## IV. Hypothesis Testing
-## 1) Relationship between user/critic reviews and total sales of a game
-## 2) Comparing user reviews between 2 platforms: 
+### 1) Relationship between user/critic reviews and total sales of a game
+### 2) Comparing user reviews between 2 platforms: 
 ## 
 ##
