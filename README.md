@@ -23,7 +23,7 @@
  ### 2) Check for duplicates: 
  - I am checking for duplicates in the column 'name' and 'platform' and 'year_of_released'. If there are any duplicates, I would combine their sales and calculate the average score for critic_score and user_score
  ### 3) Converting to reasonable data type 
-
+- All the sales columns (na_sales, eu_sales, jp_sales, other_sales, and total_sales) have the unit of millions USD 
 ## III. Data Exploratory + Data Analysis 
 ### 1) Answering General Questions: 
 After handling the data, I think of several potential questions that can be answered from this data set. Those questions assist me in achieving my goal: building a measurable marketing strategy.
@@ -78,33 +78,33 @@ e) Video games genre: Take a look at the general distribution of games by genre 
 - The top five platforms and genres for each region; describe and analyze the findings
 
 The top 5 platforms: 
-![image](https://user-images.githubusercontent.com/60806068/88999859-c1cb4000-d2c3-11ea-9f73-e7960272af74.png)
 
+![image](https://user-images.githubusercontent.com/60806068/89000592-bc6ef500-d2c5-11ea-9fb1-9185f4084a6d.png)
 
    - Within the top 5 platorms for every region, the common platform that creates the most profits is 'ps2'.
-   - The market share for EU and North America is pretty similar because there are a lot of similar platforms, 'ps3', 'x360', 'ps2', 'wii'. The difference is that in NA region, users prefer 'ps' and in EU region, users prefer 'ps'
+    - The market share for EU and North America is pretty similar because there are a lot of similar platforms, 'ps3', 'x360', 'ps2', 'wii'. The difference is that in NA region, users prefer 'ps' and in EU region, users prefer 'ps'
 
 
 The top 5 genres: 
 
-![image](https://user-images.githubusercontent.com/60806068/89000092-71081700-d2c4-11ea-9e02-dac3691496d4.png)
+![image](https://user-images.githubusercontent.com/60806068/89000521-947f9180-d2c5-11ea-8619-a9b69fdd6820.png)
 
-  - The common genres that are famous in the 3 regions: 'action', 'sports', 'misc'
-  - Suprisingly, again, top 5 genres for NA and EU are very similar; most of top 5 genres are the same, 'action', 'shooter', 'sports', 'misc'; 
-  - The difference is in NA region, the users prefer 'role-playing', in EU region, the users prefer 'racing' 
-  - For the 'Japan' market share, their most profitable genre is 'role-playing'
+   - The common genres that are famous in the 3 regions: 'action', 'sports', 'misc'
+   - Suprisingly, again, top 5 genres for NA and EU are very similar; most of top 5 genres are the same, 'action', 'shooter', 'sports', 'misc'; 
+   - The difference is in NA region, the users prefer 'role-playing', in EU region, the users prefer 'racing' 
+   - For the 'Japan' market share, their most profitable genre is 'role-playing'
 
 General comments/observation for all 3 regions: 
-  - The reason why there are somewhat huge difference between the best selling genre in 'Japan', 'EU' and 'NA' because of culture. There are somewhat resemblences in the EU and NA customer's culture so therefore these 2 regions share similarity in both top genres and top platforms 
+   - The reason why there are somewhat huge difference between the best selling genre in 'Japan', 'EU' and 'NA' because of culture. There are somewhat resemblences in the EU and NA customer's culture so therefore these 2 regions share similarity in both top genres and top platforms 
 
 - Do ESRB ratings affect sales in individual regions?
 
 ![image](https://user-images.githubusercontent.com/60806068/89000200-c2b0a180-d2c4-11ea-832a-e4dc340af42a.png)
 
-  - Because the majority of the games are in the E rating. It is not surprised that in all 3 regions, the 'E' rating has the highest sales. 
-  - In the NA region, there are a roughly 300 millions USD difference between E and other ratings. This might mean that the users in the NA has a strong preference towards E rating
-  - In JP regions, the sales for M rating is not as preference comparing to other rating games. 
-  - So far, most likely that the E rating games would generate the more sales compared to other due to its vast audience and all ages friendly.
+   - Because the majority of the games are in the E rating. It is not surprised that in all 3 regions, the 'E' rating has the highest sales. 
+   - In the NA region, there are a roughly 300 millions USD difference between E and other ratings. This might mean that the users in the NA has a strong preference towards E rating
+   - In JP regions, the sales for M rating is not as preference comparing to other rating games. 
+   - So far, most likely that the E rating games would generate the more sales compared to other due to its vast audience and all ages friendly.
 
 ## IV. Test the following hypotheses:
 ### 1) There is Relationship between user/critic reviews and total sales of a game
@@ -137,7 +137,25 @@ Because the total sales of each game correlated with the critic score, I am test
 
 ## V. Conclusions: 
 #### 1) Top 10 games that are currently most profitable: 
+
+![image](https://user-images.githubusercontent.com/60806068/89000982-c513fb00-d2c6-11ea-96d1-3b964039a34f.png)
+
 #### 2) Top 5 platforms: 
+
+![image](https://user-images.githubusercontent.com/60806068/89001014-d5c47100-d2c6-11ea-810c-49c79739cca2.png)
+
+#### General conclusions: 
+- From the distribution graphs:
+    - The platforms that are becoming less popular are x360, PS3, Wii, 3DS and WiiU. 
+    - The potential growing platforms are PS4 and XOne 
+
+- User/Critic scores and total sales: 
+    - The critic scores influence the total sales more than the user scores. The correlation coefficient of the critic scores and total sales (0.37) is higher than the correlation coefficient of user scores and total sales
+    
+- Genres and total sales: 
+    - The most profitable genre is action. The total sales for games that have action as the genre generate around 1000 millions USD. 
+- ESRB rating preference: 
+    - Users prefer game that are rated "E - everyone". More games have E as their rating!
 ### Potential Marketing Strategy: 
 - The common strategy for all regions:
   - Promoting he top 10 games that are currently the best-selling games in the world (including the total amount of money/or games have sold through out the worlds are an excellent way to attract customer)
@@ -152,5 +170,3 @@ Because the total sales of each game correlated with the critic score, I am test
       - Other preference platforms are PS3, Wii, X360
       - Maybe promoting other famous genres shooter, sports, misc, role-playing and racing
 - Both X-One and PS4 are a potential growing platforms, we can also take advantages of that growth to generate more interest
-
-
