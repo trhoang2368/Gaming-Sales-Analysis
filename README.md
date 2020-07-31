@@ -27,6 +27,7 @@
 ## III. Data Exploratory + Data Analysis 
 ### 1) Answering General Questions: 
 After handling the data, I think of several potential questions that can be answered from this data set. Those questions assist me in achieving my goal: building a measurable marketing strategy.
+
 a) The total sales for each game - grouping the game based on only its' name and not its' platform. How many games were released in different years?
 - 'games_sales' table is about the total sales for each game.
 - The number of game released per year changes from having less than 100 (1980-1993), to a significant spike 1482 in 2009. In the most current year from 2012 - 2016, the number of games released per year is rooughly 500-600. 
